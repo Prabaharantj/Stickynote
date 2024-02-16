@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caveat:wght@400;600&family=Noto+Color+Emoji&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+body{
+    background-color: #34495e;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 25px;
+    padding: 25px;
+}
+.sticky{
+    height: 200px;
+    resize: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.btn{
+    height: 200px;
+    background-color: #e74c3c;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #c0392b;
+    
+}
